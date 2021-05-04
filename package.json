@@ -1,0 +1,8 @@
+{
+  "name": "basic-website-template",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "php -S localhost:8080 -t ./"
+  },
+  "dependencies": {}
+}

@@ -1,3 +1,4 @@
+<?php include_once('./lib/template.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,6 +10,7 @@
   </head>
   <body>
     <!-- Write your HTML code here! -->
+    <?php template("templates/header.php", array()) ?>
     <script src="js/site.js"></script>
   </body>
 </html>
